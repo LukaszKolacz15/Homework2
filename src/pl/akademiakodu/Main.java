@@ -2,6 +2,7 @@ package pl.akademiakodu;
 
 import pl.akademiakodu.task1.Zarowka;
 import pl.akademiakodu.task2.Piosenka;
+import pl.akademiakodu.task3.Tire;
 
 public class Main {
 
@@ -16,10 +17,15 @@ public class Main {
 
 //   task2
 
-        Piosenka piosenka = new Piosenka();
-        piosenka.setNazwa("Highway to hell");
-        piosenka.setArtysta("AC/DC");
-        piosenka.getPiosenka();
+//        Piosenka piosenka = new Piosenka();
+//        piosenka.setNazwa("Highway to hell");
+//        piosenka.setArtysta("AC/DC");
+//        piosenka.getPiosenka();
+
+//   task3
+
+        Tire tire = new Tire(175, 70, 15);
+        System.out.println(tire.tireShortcut());
 
     }
 }
