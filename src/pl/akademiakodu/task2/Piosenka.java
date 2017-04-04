@@ -13,6 +13,10 @@ public class Piosenka {
         this.artysta = artysta;
     }
 
+    public Piosenka() {
+
+    }
+
     public String getNazwa() {
         return nazwa;
     }
@@ -29,6 +33,10 @@ public class Piosenka {
         this.artysta = artysta;
     }
 
+    public void getPiosenka(){
 
+        System.out.println("Pełna nazwa piosenki: " + getNazwa() + " twórca: " + getArtysta());
+
+    }
 
 }
